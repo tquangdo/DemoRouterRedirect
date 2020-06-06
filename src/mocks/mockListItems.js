@@ -2,7 +2,6 @@ import React from 'react'
 import TrangChu from "../components/TrangChu"
 import LienHe from "../components/LienHe"
 import SanPhamList from "../components/SanPhamList"
-import Login from '../components/Login'
 
 var sanpham_list_items = [
     {
@@ -60,11 +59,6 @@ var route_items = [
         path: "/lienhe",
         exact: false,
         component: () => <LienHe />
-    },
-    {
-        path: "/login",
-        exact: false,
-        component: ({ location }) => <Login locationObj={location} />
     },
     {
         path: "/sanphamlist",
