@@ -1,31 +1,20 @@
 import React from 'react'
-import { Redirect, Route } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 
 class Login extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       txtUsername: '',
-      txtPW: ''
+      txtPW: '',
+      is_redir: false
     }
   }
   onSubmitForm = (e) => {
     e.preventDefault()
     let { txtUsername, txtPW } = this.state
     if (txtUsername === 'admin' && txtPW === 'admin') {
-      console.log('Login OK!')
-      return <Route
-        render={() => (
-          <Redirect to={{
-            pathname: "/sanphamlist",
-            state: { from: this.props.locationObj }
-          }} />
-        )}
-      />
-      // localStorage.setItem('LOGIN', JSON.stringify({
-      //   username: txtUsername,
-      //   pw: txtPW
-      // }))
+      this.setState({ is_redir: true })
     } else {
       alert('Sai thông tin đăng nhập!!!')
     }
@@ -36,13 +25,13 @@ class Login extends React.Component {
   }
   render() {
     let { txtUsername, txtPW } = this.state
-    // let { locationObj } = this.props
-    // if (localStorage.getItem('LOGIN') !== null) {
-    //   return <Redirect to={{
-    //     pathname: "/sanphamlist",
-    //     state: { from: locationObj }
-    //   }} />
-    // }
+    let { locationObj } = this.props
+    if (this.state.is_redir) {
+      return <Redirect to={{
+        pathname: "/sanphamlist",
+        state: { from: locationObj }
+      }} />
+    }
     return (
       <div className="CanhTraiCSS">
         <form onSubmit={this.onSubmitForm}>
