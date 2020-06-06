@@ -1,9 +1,7 @@
 import React from 'react'
 import TrangChu from "../components/TrangChu"
 import LienHe from "../components/LienHe"
-import NotFound from "../components/NotFound"
 import SanPhamList from "../components/SanPhamList"
-import SanPham from '../components/SanPham'
 import Login from '../components/Login'
 
 var sanpham_list_items = [
@@ -64,11 +62,6 @@ var route_items = [
         component: () => <LienHe />
     },
     {
-        path: "/sanphamlist/:param_id",
-        exact: false,
-        component: ({ match }) => <SanPham matchObj={match} /> // PHẢI là ({match}) chứ KO phải (match)
-    },
-    {
         path: "/login",
         exact: false,
         component: ({ location }) => <Login locationObj={location} />
@@ -77,12 +70,6 @@ var route_items = [
         path: "/sanphamlist",
         exact: false,
         component: ({ match, location }) => <SanPhamList matchObj={match} locationObj={location} />
-    },
-    // PHẢI để <NotFound> sau cùng, nếu ko dù exact=true vẫn NG!!!
-    {
-        path: "",
-        exact: false,
-        component: () => <NotFound />
     }
 ]
 

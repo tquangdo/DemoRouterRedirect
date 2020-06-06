@@ -4,7 +4,7 @@ class TrangChu extends React.Component {
   render() {
     return (
       <div>
-        Đây là Trang chủ
+        <h1>Đây là Trang chủ</h1>
       </div>
     )
   }
