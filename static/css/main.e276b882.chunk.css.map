@@ -1,0 +1,1 @@
+{"version":3,"sources":["NgoaiCung.css"],"names":[],"mappings":"AAAA,QACI,+BAAkC,CAClC,oBACJ,CACA,SACI,iBACJ,CACA,aACI,eACJ","file":"main.e276b882.chunk.css","sourcesContent":[".active {\r\n    background-color: white !important;\r\n    color: blue !important\r\n}\r\n.DoTQApp {\r\n    text-align: center\r\n}\r\n.CanhTraiCSS {\r\n    text-align: left\r\n}"]}
