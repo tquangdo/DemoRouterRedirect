@@ -65,7 +65,7 @@ function RouteCaNhan({ children, ...rest }) {
 
 
 function AuthenButton() {
-  let history = useHistory() // hooks
+  let history = useHistory() // Hooks can only be called inside of the body of a function component
   const [is_authen, setIsAuthen] = useState(false)
   let onAuthen = (cb) => {
     setIsAuthen(true)
