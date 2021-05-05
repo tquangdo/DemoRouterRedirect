@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/DemoRouterRedirect/static/css/main.e276b882.chunk.css",
-    "main.js": "/DemoRouterRedirect/static/js/main.980fe66e.chunk.js",
-    "main.js.map": "/DemoRouterRedirect/static/js/main.980fe66e.chunk.js.map",
-    "runtime-main.js": "/DemoRouterRedirect/static/js/runtime-main.6a8d88e0.js",
-    "runtime-main.js.map": "/DemoRouterRedirect/static/js/runtime-main.6a8d88e0.js.map",
-    "static/js/2.e38e42c3.chunk.js": "/DemoRouterRedirect/static/js/2.e38e42c3.chunk.js",
-    "static/js/2.e38e42c3.chunk.js.map": "/DemoRouterRedirect/static/js/2.e38e42c3.chunk.js.map",
-    "index.html": "/DemoRouterRedirect/index.html",
-    "precache-manifest.384e494dbbc0a92d1b4a270397ff1d45.js": "/DemoRouterRedirect/precache-manifest.384e494dbbc0a92d1b4a270397ff1d45.js",
-    "service-worker.js": "/DemoRouterRedirect/service-worker.js",
-    "static/css/main.e276b882.chunk.css.map": "/DemoRouterRedirect/static/css/main.e276b882.chunk.css.map",
-    "static/js/2.e38e42c3.chunk.js.LICENSE.txt": "/DemoRouterRedirect/static/js/2.e38e42c3.chunk.js.LICENSE.txt"
+    "main.css": "/react-demo-router-redirect/static/css/main.e276b882.chunk.css",
+    "main.js": "/react-demo-router-redirect/static/js/main.b13408cd.chunk.js",
+    "main.js.map": "/react-demo-router-redirect/static/js/main.b13408cd.chunk.js.map",
+    "runtime-main.js": "/react-demo-router-redirect/static/js/runtime-main.710a5286.js",
+    "runtime-main.js.map": "/react-demo-router-redirect/static/js/runtime-main.710a5286.js.map",
+    "static/js/2.8157f59e.chunk.js": "/react-demo-router-redirect/static/js/2.8157f59e.chunk.js",
+    "static/js/2.8157f59e.chunk.js.map": "/react-demo-router-redirect/static/js/2.8157f59e.chunk.js.map",
+    "index.html": "/react-demo-router-redirect/index.html",
+    "precache-manifest.d2604d3509a5d6a86280a02c03fb5861.js": "/react-demo-router-redirect/precache-manifest.d2604d3509a5d6a86280a02c03fb5861.js",
+    "service-worker.js": "/react-demo-router-redirect/service-worker.js",
+    "static/css/main.e276b882.chunk.css.map": "/react-demo-router-redirect/static/css/main.e276b882.chunk.css.map",
+    "static/js/2.8157f59e.chunk.js.LICENSE.txt": "/react-demo-router-redirect/static/js/2.8157f59e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a8d88e0.js",
-    "static/js/2.e38e42c3.chunk.js",
+    "static/js/runtime-main.710a5286.js",
+    "static/js/2.8157f59e.chunk.js",
     "static/css/main.e276b882.chunk.css",
-    "static/js/main.980fe66e.chunk.js"
+    "static/js/main.b13408cd.chunk.js"
   ]
 }
