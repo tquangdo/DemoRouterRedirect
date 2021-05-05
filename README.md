@@ -1,6 +1,6 @@
 ![demo](demo.png)
 
-# DemoRouterRedirect
+# react-demo-router-redirect
 ```
 1) npm install
 2) npm start
